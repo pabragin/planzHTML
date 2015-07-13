@@ -1,0 +1,9 @@
+{
+  "Result":"OK",
+  "Records":[
+    {"PersonId":1,"ID":1,"Activity":"Some activity","PreActivity":"Some Preactivity", "Resource":"Some resource"},
+    {"PersonId":2,"ID":2,"Activity":"Some activity","PreActivity":"Some Preactivity", "Resource":"Some resource"},
+    {"PersonId":3,"ID":3,"Activity":"Some activity","PreActivity":"Some Preactivity", "Resource":"Some resource"},
+    {"PersonId":4,"ID":4,"Activity":"Some activity","PreActivity":"Some Preactivity", "Resource":"Some resource"},
+  ]
+}
