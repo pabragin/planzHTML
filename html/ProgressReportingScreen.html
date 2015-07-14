@@ -206,6 +206,12 @@
                 <span class="font-bold">Projects</span>
               </a>
             </li>
+            <li>
+              <a href="SystemAdminPage.html">
+                <i class="glyphicon icon-settings icon text-danger-dker"></i>
+                <span class="font-bold">System Settings</span>
+              </a>
+            </li>
           </ul>
         </nav>
         <!-- nav -->
@@ -310,13 +316,14 @@
               <div class="panel-body b-b b-light">
                 Search: <input id="filter" type="text" class="form-control input-sm w-sm inline m-r"/>
               </div>
-                <table class="table m-b-none myTableWithTdLink" ui-jq="footable" data-filter="#filter">
+              <div class="overflowAdd">
+                <table class="table m-b-none myTableWithTdLink scrollableTableFixedCols" ui-jq="footable" data-filter="#filter">
                   <thead>
                   <tr>
-                    <th data-toggle="true">
+                    <th class="headcol1" data-toggle="true">
                       ID
                     </th>
-                    <th>
+                    <th class="headcol2">
                       Activity
                     </th>
                     <th>
@@ -343,12 +350,108 @@
                     <th>
                       8
                     </th>
+                    <th>
+                      9
+                    </th>
+                    <th>
+                      10
+                    </th>
+                    <th>
+                      11
+                    </th>
+                    <th>
+                      12
+                    </th>
+                    <th>
+                      13
+                    </th>
+                    <th>
+                      14
+                    </th>
+                    <th>
+                      15
+                    </th>
+                    <th>
+                      16
+                    </th>
+                    <th>
+                      17
+                    </th>
+                    <th>
+                      18
+                    </th>
+                    <th>
+                      19
+                    </th>
+                    <th>
+                      20
+                    </th>
+                    <th>
+                      21
+                    </th>
+                    <th>
+                      22
+                    </th>
+                    <th>
+                      23
+                    </th>
+                    <th>
+                      24
+                    </th>
+                    <th>
+                      25
+                    </th>
+                    <th>
+                      26
+                    </th>
+                    <th>
+                      27
+                    </th>
+                    <th>
+                      28
+                    </th>
+                    <th>
+                      29
+                    </th>
+                    <th>
+                      30
+                    </th>
+                    <th>
+                      31
+                    </th>
+                    <th>
+                      32
+                    </th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr>
-                    <td>1</td>
-                    <td>Cleaning</td>
+                    <td class="headcol1">1</td>
+                    <td class="headcol2">Cleaning</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
@@ -359,8 +462,8 @@
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                   </tr>
                   <tr>
-                    <td>2</td>
-                    <td>Marking</td>
+                    <td class="headcol1 footable-odd">2</td>
+                    <td class="headcol2 footable-odd">Marking</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td class="bg-success" data-toggle="modal" data-target="#myModal">A05-01-01</td>
                     <td class="bg-success" data-toggle="modal" data-target="#myModal">A05-01-02</td>
@@ -369,10 +472,34 @@
                     <td class="bg-info" data-toggle="modal" data-target="#myModal">A05-02-02</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                   </tr>
                   <tr>
-                    <td>3</td>
-                    <td>Plumbing</td>
+                    <td class="headcol1">3</td>
+                    <td class="headcol2">Plumbing</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
@@ -381,10 +508,34 @@
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                   </tr>
                   <tr>
-                    <td>4</td>
-                    <td>Plumbing test</td>
+                    <td class="headcol1 footable-odd">4</td>
+                    <td class="headcol2 footable-odd">Plumbing test</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
@@ -393,10 +544,34 @@
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                   </tr>
                   <tr>
-                    <td>5</td>
-                    <td>Electric infra</td>
+                    <td class="headcol1">5</td>
+                    <td class="headcol2">Electric infra</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
@@ -405,10 +580,34 @@
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                   </tr>
                   <tr>
-                    <td>6</td>
-                    <td>Electric Infra test</td>
+                    <td class="headcol1 footable-odd">6</td>
+                    <td class="headcol2 footable-odd">Electric Infra test</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor"></td>
@@ -417,6 +616,30 @@
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
                     <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-02-02</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-01-03</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-01</td>
+                    <td data-toggle="modal" data-target="#myModalNotMyColor">A05-03-02</td>
                   </tr>
                   </tfoot>
                 </table>
@@ -434,25 +657,72 @@
               </div>
             </div>
           </div>
+          <div class="col-sm-7">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                Log
+              </div>
+                <div class="panel-body b-b b-light">
+                  Search: <input id="filterLog" type="text" class="form-control input-sm w-sm inline m-r"/>
+                </div>
+                <table class="table m-b-none myTableWithTdLink" ui-jq="footable" data-filter="#filterLog">
+                  <thead>
+                  <tr>
+                    <th>
+                      Date
+                    </th>
+                    <th>
+                      Apartment
+                    </th>
+                    <th>
+                      Activity
+                    </th>
+                    <th>
+                      Report
+                    </th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td><span class="label text-base bg-warning pos-rlt m-r">26.08.2014</span></td>
+                    <td>A05-02-01</td>
+                    <td>Marking</td>
+                    <td>Activity started</td>
+                  </tr>
+                  <tr>
+                    <td><span class="label text-base bg-info pos-rlt m-r"> 25.08.2014</span></td>
+                    <td>A05-02-02</td>
+                    <td>Marking</td>
+                    <td>Almost done next activity can begin</td>
+                  </tr>
+                  <tr>
+                    <td><span class="label text-base bg-success pos-rlt m-r"> 24.08.2014</span></td>
+                    <td>A05-01-03</td>
+                    <td>Marking</td>
+                    <td>Fully Done or not relevant to this apartment</td>
+                  </tr>
+                  <tr>
+                    <td><span class="label text-base bg-success pos-rlt m-r"> 23.08.2014</span></td>
+                    <td>A05-01-02</td>
+                    <td>Marking</td>
+                    <td>Fully Done or not relevant to this apartment</td>
+                  </tr>
+                  <tr>
+                    <td><span class="label text-base bg-success pos-rlt m-r"> 22.08.2014</span></td>
+                    <td>A05-01-01</td>
+                    <td>Marking</td>
+                    <td>Fully Done or not relevant to this apartment</td>
+                  </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-
-
     </div>
   </div>
   <!-- / content -->
-
-  <!-- footer -->
-  <footer id="footer" class="app-footer" role="footer">
-    <div class="wrapper b-t bg-light">
-      <span class="pull-right">2.0.1 <a href ui-scroll="app" class="m-l-sm text-muted"><i class="fa fa-long-arrow-up"></i></a></span>
-      &copy; 2015 Copyright.
-    </div>
-  </footer>
-  <!-- / footer -->
-
 </div>
 
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>

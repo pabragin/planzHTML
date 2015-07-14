@@ -5273,3 +5273,45 @@ a.projectLink:hover{
 .myTableWithTdLink td{
   cursor: pointer;
 }
+
+.scrollableTableFixedCols tr th{
+  width: 150px !important;
+  table-layout:auto !important;
+}
+
+.scrollableTableFixedCols tr td{
+  width: 150px !important;
+  table-layout:fixed !important;
+}
+
+.headcol1{
+  position:absolute;
+  width:100px !important;
+  left:17px;
+  top:auto;
+  background-color: white;
+}
+
+.headcol2{
+  position:absolute;
+  width:160px !important;
+  left:100px;
+  top:auto;
+  background-color: white;
+}
+
+.scrollableTableFixedCols
+{
+  margin-left: 220px;
+  border-top: 0 !important;
+  table-layout:fixed !important;
+}
+
+.scrollableTableFixedCols{
+  width: inherit !important;
+}
+
+.overflowAdd{
+  overflow: auto !important;
+  width: 100%;
+}
